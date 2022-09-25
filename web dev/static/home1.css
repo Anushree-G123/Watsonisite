@@ -1,0 +1,92 @@
+.banner-area{
+    background-image: url("https://img.freepik.com/free-vector/bitcoin-blockchain-digital-coin-crypto-currency-concept-background_1017-30307.jpg?w=2000");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding:15px 60px;
+}
+.menu
+{
+    width:30%;
+    float: right;
+    list-style: none;
+}
+.menu li{
+    width:100px;
+    height:50px;
+    line-height: 20px;
+    text-align: center;
+    color:#fff;
+    font-size: 13px;
+    float:left;
+
+}
+.menu li:hover{
+    background: yellow;
+}
+.menu li:hover a{
+    color: #000;
+}
+.menu li a{
+    text-decoration: none;
+    font-family:baloo;
+    color:#fff;
+    text-transform: uppercase;
+}
+.logo
+{
+    text-decoration: none;
+    color: #fff;
+    margin-top: .5px;
+    font-size: 50px;
+    font-family: big john;
+    padding: 20px 0;
+    width: 30%;
+    float: left;
+
+}
+.banner-text{
+    position:absolute;
+    top: 50%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+.banner-text h2{
+    font-family: baloo;
+    margin: 0;
+    font-size: 55px;
+    color: yellow;
+}
+.banner-text p{
+    font-size: 30px;
+    margin: 0;
+    font-family: poppins;
+    color:#fff;
+    text-decoration: solid;
+    
+}
+.banner-text a{
+    text-decoration: none;
+    border:1px solid #fff;
+    font-size: 17px;
+    padding:10px 35px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 5%;
+    font-family:poppins;
+    text-transform: uppercase;
+}
+.banner-text a:hover{
+    border-color: yellow;
+    background: yellow;
+    transition: .9s;
+    color: #262626;
+}

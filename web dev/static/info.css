@@ -1,0 +1,74 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.banner-text{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    margin: 0;
+    background-image: url("https://a.rgbimg.com/users/x/xy/xymonau/600/mX8RmzI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-text h2{
+   
+    font-family: baloo;
+    margin: 0;
+    font-size: 20px;
+    margin-inline-start: 15%;
+    margin-inline-end: 15%;
+    text-align: justify;
+}
+.banner-text p{
+    font-size: 20px;
+    margin: 0px;
+    margin-inline-start: 15%;
+    margin-inline-end: 15%;
+   
+ 
+    font-family: poppins;
+    text-align: justify;
+    
+    
+    text-decoration: solid;
+    
+}
+.types{
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    text-align:left;
+}
+.point{
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    text-align:left;
+    font-size: 20px;
+
+}
+.step{
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    text-align:left;
+    font-size: 20px;
+
+}
+.hi
+{
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    text-align:left;
+    font-size: 20px;
+ 
+}
+.h{
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    text-align:left;
+    font-size: 20px;
+ 
+}

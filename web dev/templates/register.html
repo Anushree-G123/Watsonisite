@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title><br>
+     <style>
+     .register{
+            background-image:url("https://wallpaperaccess.com/full/119856.jpg");
+             background-size: 100px;
+            background-position: center;
+           /* background-size: cover;*/
+            background-position:absolute;
+        }
+        .register{
+            position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+    
+    <div class="register">
+<h1>Register Page</h1>
+
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        <br><br>
+        {{ form.password }}<br><br>
+        {{ form.submit }}<br><br>
+        
+    </form>
+
+    <a href="{{ url_for('login') }}">Already have an account? Log In</a><br>
+</div>
+</body>
+
+
+</html>
